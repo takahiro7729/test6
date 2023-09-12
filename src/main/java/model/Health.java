@@ -10,7 +10,7 @@ public class Health implements Serializable{
 	public double getHeight() {return height;}
     public void setWeight(double weight) {this.weight = weight;}
 	public double getWeight() {return weight;}
-	public void setBmi(double bmi) {this.bmi = bmi;}
+	public void setBmi(double string) {this.bmi = string;}
 	public double getBmi() {return bmi;}
 	public void setBodyType(String bodyType) {this.bodyType = bodyType;}
 	public String getBodyType() {return this.bodyType;}

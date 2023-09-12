@@ -25,7 +25,7 @@ public class HealthCheck extends HttpServlet {
     dispatcher.forward(request, response);
    }
   
-protected void doPost(HttpServletRequest request,HttpServletResponse response)
+ protected void doPost(HttpServletRequest request,HttpServletResponse response)
     throws ServletException,IOException{
 	
 	//リクエストパラメーターを取得
