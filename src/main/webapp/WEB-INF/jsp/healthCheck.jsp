@@ -11,6 +11,7 @@
 <form action="HealthCheck" method="post">
 身長:<input type="text" name="height"> (cm)<br>
 体重:<input type="text" name="weight"> (kg)<br>
+<input type="submit" value="診断">
 </form>
 </body>
 </html>
